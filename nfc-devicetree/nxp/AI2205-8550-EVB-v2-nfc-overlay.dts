@@ -1,0 +1,10 @@
+/dts-v1/;
+/plugin/;
+
+#include "kalama-v2-nfc-mtp.dts"
+/ {
+	model = "Qualcomm Technologies, Inc. ASUS AI2205 8550 NFC EVB";
+	compatible = "qcom,kalama-mtp", "qcom,kalama", "qcom,mtp";
+	qcom,msm-id = <519 0x20000>, <536 0x20000>;
+	qcom,board-id = <30 0>;
+};

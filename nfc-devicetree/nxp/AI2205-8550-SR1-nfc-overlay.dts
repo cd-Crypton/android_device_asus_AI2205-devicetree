@@ -1,0 +1,10 @@
+/dts-v1/;
+/plugin/;
+
+#include "AI2205-8550-EVB-nfc-overlay.dts"
+/ {
+	model = "Qualcomm Technologies, Inc. ASUS AI2205 8550 NFC SR1";
+	compatible = "qcom,kalama-mtp", "qcom,kalama", "qcom,mtp";
+	qcom,msm-id = <519 0x10000>, <536 0x10000>;
+	qcom,board-id = <40 0>;
+};
